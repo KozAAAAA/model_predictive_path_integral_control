@@ -27,6 +27,7 @@ class RandomSamplingOptimization:
 
         for i in range(self.n_iter):
             accumulated_rewards[i] = self._evaluate(actions_vector[i])
-
-        best_actions = actions_vector[np.argmax(accumulated_rewards)]
-        return best_actions
+        
+        actions = actions_vector[np.argmax(accumulated_rewards)]
+        reward = np.max(accumulated_rewards)
+        return actions, reward
