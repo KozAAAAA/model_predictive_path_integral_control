@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class RandomSamplingOptimization:
+class RSO:
     def __init__(self, x0, n_iter, n_actions, env):
         self.x0 = x0
         self.n_iter = n_iter
