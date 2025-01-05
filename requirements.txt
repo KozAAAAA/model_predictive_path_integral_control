@@ -1,0 +1,9 @@
+gymnasium==1.0.0
+ipython==8.14.0
+ipykernel==6.7.0
+matplotlib==3.10.0
+numpy==2.2.1
+pygame==2.6.1
+mujoco==3.2.6
+imageio==2.36.1
+s
